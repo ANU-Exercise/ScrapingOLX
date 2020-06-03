@@ -4,7 +4,7 @@ This project is an exercise project to improve my skill to scrape data from e-co
 # Web Scraping
 
 ### The Plan
-For this web scraping, I will try to extract mercedes benz used car data (specification and price) from https://olx.co.id. I will use beautifulsoup as the tool to extract olx html. This web scraping is multipage web scraping. From the "mercedes benz" search results, I will extract the title, price, and link to item specifications. After I get them, I will use the link from each of extracted datas to direct me to item / car detail pages to get the car specifications like year, km, varian, model, etc.
+For this web scraping, I will try to extract mercedes benz used car data (specification and price) from https://olx.co.id. I will use beautifulsoup as the tool to extract olx html. This web scraping is multipage web scraping. From the "mercedes benz" search result pages, I will extract the title, price, and link to item specifications. After I get them, I will use the link from each of extracted datas to direct me to item / car detail pages to get the car specifications like year, km, varian, model, etc.
 
 ### About The Data
 ##### Mercedes Benz Search Result Page
