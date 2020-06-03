@@ -16,7 +16,7 @@ At the item page we could find detail which means car specification. From this s
 <center><img src="https://github.com/agunggnug/PricePredict_ScrapingOLX/blob/master/Pictures/Screen%20Shot%202020-06-03%20at%2009.51.11.png?raw=true" alt="" width="950" height="550"></center>
 
 ##### The Result
-After doing web scraping processes, I have extracted around 1440 items which meet with our requirements. The web scraping process is availabe <a href="https://github.com/agunggnug/PricePredict_ScrapingOLX/blob/master/Scraping%20OLX.ipynb">here</a>. So, the next process is data cleaning and exploratory data analysis (EDA).
+After doing web scraping processes, it turns out I need more than 100 loops to get existing data and more than one scraping process. I have extracted around 1440 items which meet with our requirements. The web scraping process is availabe <a href="https://github.com/agunggnug/PricePredict_ScrapingOLX/blob/master/Scraping%20OLX.ipynb">here</a>. So, the next process is data cleaning and exploratory data analysis (EDA).
 
 
 # Data Cleaning and EDA
