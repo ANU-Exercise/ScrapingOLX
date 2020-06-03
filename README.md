@@ -18,6 +18,8 @@ At the item page we could find detail which means car specification. From this s
 #### The Result
 After doing web scraping processes, it turns out I need more than 100 loops to get existing data and more than one scraping process. I have extracted around 1440 items which meet with our requirements. The web scraping process is availabe <a href="https://github.com/agunggnug/PricePredict_ScrapingOLX/blob/master/Scraping%20OLX.ipynb">here</a>. So, the next process is data cleaning and exploratory data analysis (EDA).
 
+#### Future Improvement
+For future improvement, it is possible to add more data to dataset. The data that will be added could be others brand data (like bmw, audi, etc) from olx or mercedes benz data that extracted from other website.
 
 # Data Cleaning and EDA
 #### ... to be continued ...
