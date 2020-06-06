@@ -22,5 +22,13 @@ After doing web scraping processes, it turns out I need more than 100 loops to g
 #### Future Improvement
 For future improvement, it is possible to add more data to dataset. The data that will be added could be others brand data (like bmw, audi, etc) from olx or mercedes benz data that extracted from other website.
 
+
 # Data Cleaning and EDA
-#### ... to be continued ...
+For data cleaning, I check the dataset that that I got from web scraping, looking for unique value, data type, unique sample, and other information about the dataset. Change price type and remove the currency sign, change range of "Jarak Tempuh", remove some unnecessary columns, and others process for each features. After finishing data cleaning, to explore the data, I have checked the some distribution, correlation some features with price, correlation between features, and etc.
+
+# Modelling
+### to be continued ...
+
+
+
+
