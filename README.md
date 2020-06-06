@@ -1,5 +1,5 @@
-# PricePredict_ScrapingOLX
-This project is an exercise project to improve my skill to scrape data from e-commerce / website. After get the data, I will do data cleaning, EDA, and machine learning for predicting.
+# ScrapingOLX
+This project is an exercise project to improve my skill to scrape data from e-commerce / website. After get the data, I will try too to do data cleaning, EDA, and machine learning to predict the price.
 
 # Web Scraping
 
