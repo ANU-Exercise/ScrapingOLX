@@ -24,7 +24,7 @@ For future improvement, it is possible to add more data to dataset. The data tha
 
 
 # Data Cleaning and EDA
-For data cleaning, I check the dataset that that I got from web scraping, looking for unique value, data type, unique sample, and other information about the dataset. Change price type and remove the currency sign, change range of "Jarak Tempuh", remove some unnecessary columns, and others process for each features. After finishing data cleaning, to explore the data, I have checked the some distribution, correlation some features with price, correlation between features, and etc.
+For data cleaning, I check the dataset that that I got from web scraping, looking for unique value, data type, unique sample, and other information about the dataset. Change price type and remove the currency sign, change range of "Jarak Tempuh", remove some unnecessary columns, and others process for each features. After finishing data cleaning, to explore the data, I have checked the some distribution, correlation some features with price, correlation between features, and etc. This processes are very helpfull for me to get some insight from the dataset.
 
 # Modelling
 ### to be continued ...
