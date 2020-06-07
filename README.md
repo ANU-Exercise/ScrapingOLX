@@ -33,12 +33,12 @@ Since modelling is not the main objective of this project (Web Scraping), I only
 
 #### 2. Cross validation from all algorithms
 
-Algorithm |	MAE |	RMSE | R2_Score
---- | --- | --- | --- | ---
-LinearRegression | 4.158775e+16 |	4.104564e+17 | -1.694088e+18
-DecissionTree Regressor | 7.935544e+07 | 2.204110e+08	| 6.688851e-01
-RandomForest Regressor | 6.811846e+07 | 1.954878e+08 | 7.409348e-01
-LGBM Regressor | 9.314647e+07	| 2.049349e+08	| 7.260802e-01
+|Algorithm |	MAE |	RMSE | R2_Score|
+|--- | --- | --- | --- | ---|
+|LinearRegression | 4.158775e+16 |	4.104564e+17 | -1.694088e+18|
+|DecissionTree Regressor | 7.935544e+07 | 2.204110e+08	| 6.688851e-01|
+|RandomForest Regressor | 6.811846e+07 | 1.954878e+08 | 7.409348e-01|
+|LGBM Regressor | 9.314647e+07	| 2.049349e+08	| 7.260802e-01|
 
 #### 3. Tuning two of the best algorithms
 #### 4. Evaluate the best model
