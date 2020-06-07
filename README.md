@@ -27,7 +27,22 @@ For future improvement, it is possible to add more data to dataset. The data tha
 For data cleaning, I check the dataset that that I got from web scraping, looking for unique value, data type, unique sample, and other information about the dataset. Change price type and remove the currency sign, change range of "Jarak Tempuh", remove some unnecessary columns, and others process for each features. After finishing data cleaning, to explore the data, I have checked the some distribution, correlation some features with price, correlation between features, and etc. This processes are very helpfull for me to get some insight from the dataset.
 
 # Modelling
-### to be continued ...
+Since modelling is not the main objective of this project (Web Scraping), I only use some algorithms which are logistic regression, decission tree regressor, random forest regressor, and LGBM Regressor. The following below are my steps of work :
+
+#### 1. Set features, set target, and split data
+
+#### 2. Cross validation from all algorithms
+
+Algorithm |	MAE |	RMSE | R2_Score
+--- | --- | --- | --- | ---
+LinearRegression | 4.158775e+16 |	4.104564e+17 | -1.694088e+18
+DecissionTree Regressor | 7.935544e+07 | 2.204110e+08	| 6.688851e-01
+RandomForest Regressor | 6.811846e+07 | 1.954878e+08 | 7.409348e-01
+LGBM Regressor | 9.314647e+07	| 2.049349e+08	| 7.260802e-01
+
+#### 3. Tuning two of the best algorithms
+#### 4. Evaluate the best model
+#### 5. Validate the best model
 
 
 
