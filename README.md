@@ -40,7 +40,7 @@ Since modelling is not the main objective of this project (Web Scraping), I only
 |RandomForest Regressor  | 6.811846e+07 | 1.954878e+08  | 7.409348e-01  |
 |LGBM Regressor          | 9.314647e+07	| 2.049349e+08	| 7.260802e-01  |
 
-Here we could see some interesting phenomena which is R2_score for LinearRegression is negative. The negative r2 score at linear regression means this model fits the data really poorly. So, I will tune RandomForest and LGBM.
+Here we could see an interesting phenomena which is R2_score for LinearRegression is negative. The negative r2 score at linear regression means this model fits the data really poorly. So, I will tune RandomForest and LGBM.
 
 #### 3. Tuning two of the best algorithms
 
