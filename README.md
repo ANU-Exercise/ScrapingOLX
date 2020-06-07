@@ -40,10 +40,27 @@ Since modelling is not the main objective of this project (Web Scraping), I only
 |RandomForest Regressor  | 6.811846e+07 | 1.954878e+08  | 7.409348e-01  |
 |LGBM Regressor          | 9.314647e+07	| 2.049349e+08	| 7.260802e-01  |
 
+Here we could see some interesting phenomena which is R2_score for LinearRegression is negative. The negative r2 score at linear regression means this model fits the data really poorly. So, I will tune RandomForest and LGBM.
+
 #### 3. Tuning two of the best algorithms
+
 #### 4. Evaluate the best model
+
+```
+Data range from 28000000 to 3500000000
+MAE :  66148194.93014232
+RMSE :  148579233.3999477
+R2_Score :  0.8507351552286064
+```
+
+This model using the hyperparameter showing very good results. With price data range from 28M to 3.5B, it gives RMSE only 148M and MAE only 66M. And, for r2 score, it gives r2_score 0.85, which means this model fits good with the data, because r2 score tells how well the regression predictions approximate the real data points.
+
 #### 5. Validate the best model
-
-
+```
+MAE mean from 20 fold :  75050559.38
+RMSE mean from 20 fold :  162672183.43
+R2_score mean from 20 fold :  0.82
+```
+I think it still have good result when validate this model with 20 Fold... But, this model absolutely need to improve again with add more data, because at the fold table we could see it shows not good stability when predicting the data. Since my main objective is to do web scraping, and doing some additional EDA and modelling, after looking this model is pretty good, I will not to continue to explore more or make this model nearly to pefect.
 
 
