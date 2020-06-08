@@ -62,6 +62,6 @@ MAE mean from 20 fold :  75050559.38
 RMSE mean from 20 fold :  162672183.43
 R2_score mean from 20 fold :  0.82
 ```
-I think it still have good result when validate this model with 20 Fold... But, this model absolutely need to improve again with add more data, because at the fold table we could see it shows not good stability when predicting the data. Since my main objective is to do web scraping, and doing some additional EDA and modelling, after looking this model is pretty good, I will not to continue to explore more or make this model nearly to pefect.
+I think it still have good result when validate this model with 20 Fold... But, this model absolutely need to be improved again with add more data or remove some outlier, because at the fold table we could see it shows not good stability when predicting the data. Since my main objective is to do web scraping, and doing some additional EDA and modelling, after looking this model is pretty good, I will not to continue to explore more or make this model nearly to pefect.
 
 
